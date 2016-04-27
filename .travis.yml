@@ -25,3 +25,6 @@ install:
   - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION dep1 dep2 ...
   - source activate test-environment
   - python setup.py install
+
+notifications:
+  email: false
