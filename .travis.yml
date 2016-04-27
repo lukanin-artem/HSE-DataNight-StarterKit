@@ -7,7 +7,7 @@ python:
 
 install: true
 
-script: cd tests && python -m unittest test_of_test
+script: python -m unittest test_of_test
 
 notifications:
   email: false
