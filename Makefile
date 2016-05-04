@@ -1,0 +1,2 @@
+run:
+	runipy baseline.ipynb
