@@ -5,7 +5,7 @@ python:
   - "3.3"
   - "3.4"
 
-install: true
+install: pip install runipy && make
 
 script: python -m unittest test_of_test
 
