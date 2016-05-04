@@ -1,5 +1,5 @@
 import unittest
-import open_check
+import test
 
 class TestMyTest(unittest.TestCase):
 	def test_test(self):
